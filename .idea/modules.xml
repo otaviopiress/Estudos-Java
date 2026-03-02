@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/advinhacao/advinhacao.iml" filepath="$PROJECT_DIR$/advinhacao/advinhacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aplicandopoo/aplicandopoo.iml" filepath="$PROJECT_DIR$/aplicandopoo/aplicandopoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/condicionais/condicionais.iml" filepath="$PROJECT_DIR$/condicionais/condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conversor/conversor.iml" filepath="$PROJECT_DIR$/conversor/conversor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio/desafio.iml" filepath="$PROJECT_DIR$/desafio/desafio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medianotas/medianotas.iml" filepath="$PROJECT_DIR$/medianotas/medianotas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeiroprojeto/primeiroprojeto.iml" filepath="$PROJECT_DIR$/primeiroprojeto/primeiroprojeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projetopoo/projetopoo.iml" filepath="$PROJECT_DIR$/projetopoo/projetopoo.iml" />
+    </modules>
+  </component>
+</project>

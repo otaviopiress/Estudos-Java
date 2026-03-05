@@ -1,6 +1,6 @@
-package pagamentos.banco.financa.modelos;
+package pagamentos.banco.contabancaria.modelos;
 
-public class Financa {
+public class ContaBancaria {
     private String nome;
     private String cargo = "Engenheiro de Software";
     private double salario = 2300;
@@ -14,19 +14,18 @@ public class Financa {
         contasFixas += conta;
     }
 
-    public void exibeFinanca() {
+    public void exibeContaBancaria() {
         System.out.println(nome);
         System.out.println("Cargo: " + cargo);
         System.out.println("Seu salário é: " + salario);
         System.out.println("Suas contas fixas são: " + contasFixas);
-        System.out.println("Você pagou suas contas e sobrou: " + contasPagas());
     }
 
     public void setContasFixas(double contasFixas) {
         this.contasFixas = contasFixas;
     }
 
-    public double contasPagas(){
+    public double getSaldo(){
         return salario - contasFixas;
     }
 }

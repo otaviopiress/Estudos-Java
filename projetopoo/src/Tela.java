@@ -1,16 +1,16 @@
-import pagamentos.banco.financa.modelos.Financa;
+import pagamentos.banco.contabancaria.modelos.ContaBancaria;
 
 public class Tela {
     public static void main(String[] args) {
-            Financa financa1 = new Financa();
+            ContaBancaria contabancaria1 = new ContaBancaria();
 
-        financa1.setNome("Otávio");
-        //financa1.cargo = "Engenheiro de Software"; Este atributo também foi declarado como private.
-        //financa1.salario = 6440.40; Este atributo foi declarado como private então, só pode ser
+        contabancaria1.setNome("Otávio");
+        //contabancaria1.cargo = "Engenheiro de Software"; Este atributo também foi declarado como private.
+        //contabancaria1.salario = 6440.40; Este atributo foi declarado como private então, só pode ser
         //acessado na própria classe em que foi declarado.
-        financa1.contas(1550);
-        financa1.contas(1570);
-        financa1.exibeFinanca();
-        financa1.contasPagas();
+        contabancaria1.contas(1550);
+        contabancaria1.contas(1570);
+        contabancaria1.exibeContaBancaria();
+        System.out.println(contabancaria1.getSaldo());
     }
 }
